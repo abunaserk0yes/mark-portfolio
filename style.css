@@ -1,0 +1,120 @@
+body{
+    font-family: 'Merriweather', serif;
+    margin:0;
+}
+section{
+    padding:50px 0;
+}
+.half-div{
+    float: left;
+    width:40%;
+    padding-left:5%;
+    margin-left:2%;
+}
+.half-div h1,.half-dream h1{
+    font-size: 32px;
+}
+.half-div h3,.half-dream h3{
+    font-size:20px;
+}
+.half-div img{
+    width:80%;
+}
+.half-div p,.half-dream p{
+    color: dimgray;
+    font-size:14px;
+    line-height:1.4;
+    text-align: justify;
+}
+.top-highlight{
+    color:deeppink;
+}
+.link-btn{
+    background-image:linear-gradient(60deg,deeppink,blue);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:10px 15px;
+    margin-top:5px;
+    display: inline-block;
+    border-radius:3px;
+    color:white;
+    font-weight: bold;
+}
+.top-banner{
+    background-image:url(image/top-banner.png);
+    background-repeat: no-repeat;
+    height:500px;
+}
+.dream-banner{
+    background-image:url(image/dream-bg.png);
+    background-repeat:no-repeat;
+    background-position: right;
+    height:500px;
+}
+.half-dream{
+    float: left;
+    width:40%;
+    padding-left:5%;
+    margin-left:2%;
+}
+.half-dream img{
+    width:90%;
+}
+.dream-highlight{
+    color:tomato;
+}
+.resume-link-btn{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,tomato,salmon);
+    padding:10px 15px;
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius:3px;
+    display: inline-block;
+    margin-top:10px;
+}
+.exprience-banner{
+    background-image:url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    height:500px;
+}
+.half-exprience{
+    float:left;
+    width: 40%;
+    padding-left:5%;
+    margin-left:2%;
+    background:white;
+}
+.half-exprience h1 {
+    font-size: 35px;
+}
+
+.half-exprience h3 {
+    font-size: 18px;
+    color: limegreen;
+}
+
+.half-exprience p {
+    color: dimgray;
+}
+.single-exp{
+    box-shadow: 10px 10px 45px #000;
+    height:300px;
+}
+
+#full-stack{
+    border-image:linear-gradient(salmon,tomato);
+    border-left:7px solid;
+    border-image-slice: 1;
+
+}
+#font-stack{
+    border-image:linear-gradient(blue,aqua);
+    border-left:  7px solid;
+    border-image-slice:1;
+}
+footer p{
+    text-align: center;
+    color:gray;
+}
