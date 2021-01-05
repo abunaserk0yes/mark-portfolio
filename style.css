@@ -1,90 +1,96 @@
-body{
-    font-family: 'Merriweather', serif;
-    margin:0;
+body {
+    font-family: "Merriweather", serif;
+    margin: 0;
 }
-section{
-    padding:50px 0;
+html{
+    scroll-behavior: smooth;
 }
-.half-div{
+section {
+    padding: 50px 0;
+}
+.half-div {
     float: left;
-    width:40%;
-    padding-left:5%;
-    margin-left:2%;
+    width: 40%;
+    padding-left: 5%;
+    margin-left: 2%;
 }
-.half-div h1,.half-dream h1{
+.half-div h1,
+.half-dream h1 {
     font-size: 32px;
 }
-.half-div h3,.half-dream h3{
-    font-size:20px;
+.half-div h3,
+.half-dream h3 {
+    font-size: 20px;
 }
-.half-div img{
-    width:80%;
+.half-div img {
+    width: 80%;
 }
-.half-div p,.half-dream p{
+.half-div p,
+.half-dream p {
     color: dimgray;
-    font-size:14px;
-    line-height:1.4;
+    font-size: 14px;
+    line-height: 1.4;
     text-align: justify;
 }
-.top-highlight{
-    color:deeppink;
+.top-highlight {
+    color: deeppink;
 }
-.link-btn{
-    background-image:linear-gradient(60deg,deeppink,blue);
+.link-btn {
+    background-image: linear-gradient(60deg, deeppink, blue);
     text-decoration: none;
     text-transform: uppercase;
-    padding:10px 15px;
-    margin-top:5px;
+    padding: 10px 15px;
+    margin-top: 5px;
     display: inline-block;
-    border-radius:3px;
-    color:white;
+    border-radius: 3px;
+    color: white;
     font-weight: bold;
 }
-.top-banner{
-    background-image:url(image/top-banner.png);
+.top-banner {
+    background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
-    height:500px;
+    height: 500px;
 }
-.dream-banner{
-    background-image:url(image/dream-bg.png);
-    background-repeat:no-repeat;
+.dream-banner {
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
     background-position: right;
-    height:500px;
+    height: 500px;
 }
-.half-dream{
+.half-dream {
     float: left;
-    width:40%;
-    padding-left:5%;
-    margin-left:2%;
+    width: 40%;
+    padding-left: 5%;
+    margin-left: 2%;
 }
-.half-dream img{
-    width:90%;
+.half-dream img {
+    width: 90%;
 }
-.dream-highlight{
-    color:tomato;
+.dream-highlight {
+    color: tomato;
 }
-.resume-link-btn{
+.resume-link-btn {
     text-decoration: none;
-    background-image: linear-gradient(45deg,tomato,salmon);
-    padding:10px 15px;
-    color:white;
+    background-image: linear-gradient(45deg, tomato, salmon);
+    padding: 10px 15px;
+    color: white;
     font-weight: bold;
     text-transform: uppercase;
-    border-radius:3px;
+    border-radius: 3px;
     display: inline-block;
-    margin-top:10px;
+    margin-top: 10px;
 }
-.exprience-banner{
-    background-image:url(image/exp-bg.png);
+.exprience-banner {
+    background-image: url(image/exp-bg.png);
     background-repeat: no-repeat;
-    height:300px;
+    height: 300px;
 }
-.half-exprience{
-    float:left;
+.half-exprience {
+    float: left;
     width: 40%;
-    padding-left:5%;
-    margin-left:2%;
-    background:white;
+    padding-left: 5%;
+    margin-left: 2%;
+    background: white;
 }
 .half-exprience h1 {
     font-size: 35px;
@@ -97,24 +103,60 @@ section{
 
 .half-exprience p {
     color: dimgray;
+    font-size: 15px;
 }
-.single-exp{
+.single-exp {
     box-shadow: 10px 10px 45px #000;
-    height:300px;
+    height: 300px;
 }
 
-#full-stack{
-    border-image:linear-gradient(salmon,tomato);
-    border-left:7px solid;
+#full-stack {
+    border-image: linear-gradient(salmon, tomato);
+    border-left: 7px solid;
     border-image-slice: 1;
-
 }
-#font-stack{
-    border-image:linear-gradient(blue,aqua);
-    border-left:  7px solid;
-    border-image-slice:1;
+#font-stack {
+    border-image: linear-gradient(blue, aqua);
+    border-left: 7px solid;
+    border-image-slice: 1;
 }
-footer p{
+footer p {
     text-align: center;
-    color:gray;
+    color: gray;
+}
+nav {
+    height: 100px;
+    padding-bottom: 50px;
+}
+.logo a i {
+    float: left;
+    font-size: 60px;
+    color:hotpink;
+    padding-left: 5%;
+    margin-top: 2%;
+}
+.menu-bar {
+    float: right;
+    margin-right: 15%;
+}
+.menu-bar ul {
+    padding: 0;
+    margin-top: 12%;
+    list-style: none;
+}
+.menu-bar ul li {
+    display: inline-block;
+}
+.menu-bar ul li {
+    margin-left: 30px;
+}
+.menu-bar ul li a {
+    font-size: 17px;
+    text-decoration: none;
+    background-image: linear-gradient(30deg, pink, deeppink);
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
