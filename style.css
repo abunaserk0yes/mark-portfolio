@@ -6,7 +6,7 @@ html{
     scroll-behavior: smooth;
 }
 section {
-    padding: 50px 0;
+   padding-top:80px;
 }
 .half-div {
     float: left;
@@ -31,6 +31,7 @@ section {
     font-size: 14px;
     line-height: 1.4;
     text-align: justify;
+    width:490px;
 }
 .top-highlight {
     color: deeppink;
@@ -63,7 +64,7 @@ nav {
 }
 .menu-bar ul {
     padding: 0;
-    margin-top: 12%;
+    margin-top: 7%;
     list-style: none;
 }
 .menu-bar ul li {
@@ -75,6 +76,7 @@ nav {
 .menu-bar ul li a {
     font-size: 17px;
     text-decoration: none;
+    text-transform: capitalize;
     background-image: linear-gradient(30deg, pink, deeppink);
     padding: 10px 15px;
     border-radius: 3px;
@@ -91,7 +93,7 @@ nav {
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    height: 500px;
+    height: 400px;
 }
 .half-dream {
     float: left;
@@ -128,6 +130,7 @@ nav {
     padding-left: 5%;
     margin-left: 2%;
     background: white;
+    border-radius:5px;
 }
 .Exp-title{
     font-size:40px;
@@ -170,3 +173,39 @@ footer p {
     color: gray;
     margin:30px 0;
 }
+.testimonial-banner{
+    height:85vh;
+}
+.test{
+    float: left;
+    width:35%;
+    height:400px;
+    margin-left: 6%;
+    padding-left: 6%;
+    text-align: center;
+    box-shadow:15px 15px 30px #a89797;
+    border-radius:5px;
+}
+.clint-photo{
+    width:400px;
+    text-align: center;
+}
+.clint-photo img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    margin-top:40px;
+}
+.clint-comment{
+    width:400px;
+    text-align: center;
+    margin-top:30px;
+}
+.clint-comment h3{
+    color:limegreen;
+    font-size:25px;
+}
+.clint-comment q{
+    color:dimgray;
+}
+
